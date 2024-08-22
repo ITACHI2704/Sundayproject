@@ -11,9 +11,7 @@
 
  
 }
-htm,body{
-    /* overflow-x: hidden; */
-}
+
 
 /* ......utility ................ */
 
@@ -43,6 +41,10 @@ htm,body{
     align-items: center;
 }
 
+.flex2{
+    display: flex;
+      align-items: center;
+}
 .direction{
     flex-direction: column;
 }
@@ -58,6 +60,8 @@ htm,body{
 .last{
     justify-content: flex-end;
 }
+
+
 
 
 .border{
@@ -286,9 +290,10 @@ padding-bottom: 20px;
 /* ..............This is contact page css ,,,,,,,,,,,....................  */
 
 .contact{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     background-color:rgb(240, 240, 240);
+
 
 }
 
@@ -298,27 +303,89 @@ padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content:center ;
+  
+    background-image: url("images__10_-removebg-preview\ \(1\).png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 
 }
 
 .rightform{
     flex-basis: 50%;
-  
+  padding: 50px 20px;
     height: 100%;
-    background-color: rgb(58, 185, 58);
+    /* background-color: rgb(58, 185, 58); */
+    gap: 5px;
 
+}
+
+.rightform input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 1px solid  black;
+    border: none;
+ 
+
+}
+
+.names input , .Email input{
+    padding: 10px 70px 10px 10px ;
+
+  
+}
+
+.subject{
+    width: 100%;
+    
+}
+
+span{
+    color: red;
+}
+
+textarea{
+    border: none;
+     border-radius: 10px;
+    outline: 1px solid  black;
+   width: 100%;
+   
+}
+
+
+.names,.mail ,.Message{
+    width:100%;
+}
+
+.submit{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit1{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.submit input{
+    padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 .leftform{
     flex-basis: 50%;
     height: 100%;
-    background-color: rgb(231, 133, 5);
+    /* background-color: rgb(231, 133, 5); */
+    padding: 0px 20px ;
+    
 
 }
 
 .contactheader{
-   height: 10vh;
+   height: 5vh;
     width: 100vw;
     background-color:rgb(240, 240, 240);
 
@@ -330,6 +397,21 @@ padding-bottom: 20px;
     color: white;
     background-color: salmon;
 }
+
+
+
+.Location ,.lmail ,.pnumber {
+    width: 100%;
+}
+.bxs-edit-location, .bxs-phone-outgoing ,.bxl-gmail{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 10px ;
+
+}
+
+
+
 
 
 
