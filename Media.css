@@ -1,17 +1,200 @@
-
 /* for latop media quaries  */
-@media only screen and (){
+@media only screen and (min-width: 1170px) {
+  .galat,
+  .header1,.section_one ,.scontainer ,.footer,.subabout{
+    width: 1170px;
+  }
+  body {
+    background-color: black;
+  }
 
+  .hicon{
+    display: none;
+  }
+
+
+  /* .................................................   */
+
+  .subcontact{
+    width: 1170px;
+    
+  }
 }
 
 
 
 /* For tablets media quaries  */
-@media only screen and (){
-    
+@media only screen and (min-width:700px) and (max-width:1170px) {
+    body{
+        background-color: rgb(63, 43, 235);
+    }
+    .header1,.section_one ,.scontainer ,.footer{
+      width: 100vw;
+      background-color: skyblue;
+      }
+
+      
+  nav {
+    display: none;
+  }
+
+
+  /* .................................   */
+  .subcontact{
+  
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+ 
+.names{
+  flex-direction: column;
+  
+}
+.namei{
+  width: 100%;
+}
+.emaili{
+  width: 100%;
 }
 
-/* For Phone media quaries  */
-@media only screen and (){
-    
+.names input, .Email input {
+  padding: 10px 70px 10px 10px;
+  width: 100%;
 }
+
+.pnumber ,.lmail ,.Location{
+  gap: 10px;
+}
+
+
+.leftform{
+  gap: 20px;
+}
+
+
+.subcontact {
+  width: 100%;
+  overflow-x: hidden;
+  flex-direction: column;
+  background: radial-gradient(black, transparent);
+
+}
+
+.rightform{
+  width: 100%;
+}
+
+.leftform{
+ padding-bottom: 30px;
+ width: 100%;
+}
+
+.contactheader{
+  background: radial-gradient(black, transparent);
+  display: none;
+}
+
+}
+
+/* ......................home....................   */
+
+.text{
+  height: auto;
+}
+
+
+
+
+
+/* For Phone media quaries  */
+@media only screen and (max-width: 700px) {
+
+    .header1,.section_one ,.scontainer ,.footer{
+        width: 100%;
+      }
+
+      body{
+        overflow-x: hidden;
+      }
+
+  nav {
+    display: none;
+  }
+
+  .secone_left, .section_one{
+    width: 100%;
+  }
+
+  .section_one {
+    flex-direction: column;
+  }
+
+  .scontainer {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+ 
+
+  .header1 {
+    background-color: red;
+    width: 100vw;
+    height: 52px;
+   
+   
+  }
+
+  .sbox{
+    width: 100%;
+  }
+
+  .sahi{
+    border: 1px solid white ;
+  }
+
+
+  /* ....................................   */
+  .subcontact{
+    /* width: 1170px; */
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+ 
+.names{
+  flex-direction: column;
+  
+}
+.namei{
+  width: 100%;
+}
+.emaili{
+  width: 100%;
+}
+
+.names input, .Email input {
+  padding: 10px 70px 10px 10px;
+  width: 100%;
+}
+
+.pnumber ,.lmail ,.Location{
+  gap: 10px;
+}
+
+
+.leftform{
+  gap: 20px;
+}
+
+
+}
+
+
+
+
+  

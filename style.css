@@ -1,431 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    
-
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-
 
 /* ......utility ................ */
 
-.full_body{
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(240, 240, 240);
-   
-
-    
+.full_body {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
 }
-.fixed{
-    position: fixed;
-    top:0%;
-    z-index: 10000;
+.fixed {
+  position: fixed;
+  top: 0%;
+  z-index: 10000;
 }
 
-
-
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.flex2{
-    display: flex;
-      align-items: center;
+.flex2 {
+  display: flex;
+  align-items: center;
 }
-.direction{
-    flex-direction: column;
-}
-
-.gap{
-    gap: 30px;
+.direction {
+  flex-direction: column;
 }
 
-.sbetween{
-    justify-content: space-between;
+.gap {
+  gap: 30px;
 }
 
-.last{
-    justify-content: flex-end;
+.sbetween {
+  justify-content: space-between;
 }
 
-
-
-
-.border{
-    border: 1px solid black ;
+.last {
+  justify-content: flex-end;
 }
 
-.hide{
-    height: 90px;
+.border {
+  border: 1px solid black;
 }
 
-
-
+.hide {
+  height: 90px;
+}
 
 /* ............. header .................  */
-.sahi{
-    width: 100vw;
-    background-color: rgb(250, 13, 13);
-
+.sahi {
+  width: 100vw;
+  background-color: rgb(250, 13, 13);
 }
 
-.galat{
-    width: 1170px;
-   
-}
-
-
-
-.header1{
-    
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1170px;
-    height: 90px;
-    padding: 0px 10px ;
+.header1 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 1170px; */
+  height: 90px;
+  padding: 0px 10px;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px ;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 nav ul li {
-list-style: none ;
+  list-style: none;
 }
 
-nav ul li a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-    transition:  .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-nav ul li a:hover{
-    color: white;
+nav ul li a:hover {
+  color: white;
 }
 
-.header_left img{
-    width: 100%;
+.header_left img {
+  width: 100%;
 }
 
+.hicon {
+  height: 50px;
+  width: 50px;
+  /* border: 2px solid white; */
+}
+
+.bx-menu-alt-right {
+  font-size: 40px;
+  color: white;
+}
 
 /* ..............section1....................  */
 
-.section_one{
-
-    width: 1170px;
-    background-color:rgb(240, 240, 240);
-    min-height: 700px;
-    margin-top: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.section_one {
+  background-color: rgb(240, 240, 240);
+  min-height: 700px;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.secone_left{
-    /* background-color: rgb(173, 101, 101); */
-    height:400px;
-    width: 90%;
-    display: flex;
-    align-items: flex-start;
-    line-height: 45px;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 10px ;
+.secone_left {
+   height: 400px;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  line-height: 45px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
 }
 .secone_left span {
-    color: red ;
+  color: red;
 }
 
-
-
-.secone_right{
-    background-color: rgb(252, 0, 0);
-    height:400px;
-    width: 90%;
+.secone_right {
+  background-color: rgb(252, 0, 0);
+  height: 400px;
+  width: 90%;
 }
 
-.button{
-    background-color: green;
-    color: white;
-    border-radius: 10px ;
-    padding: 10px 20px ;
-    outline: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition:  .5s ease-in;
-    
+.button {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease-in;
 }
 
-.button:hover{
-    background-color: rgb(0, 139, 253);
-    color: rgb(7, 6, 6) 
-    ;
+.button:hover {
+  background-color: rgb(0, 139, 253);
+  color: rgb(7, 6, 6);
 }
-
-
-
-
-
 
 /* ............... section2..........  */
 
-.shome{
-    /* background-color: rgb(192, 189, 174); */
-    /* background-image: url("shinchan.jpg"); */
-    background-position: center;
-    background-size: contain;
-    background-repeat:repeat-x;
-    padding: 20px;
+.shome {
+  background-image: url("shinchan.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-x;
+  padding: 20px;
+  background-color: green;
+  color: red;
 }
 
-.section2{
-    position: relative;
-    background-image: url("images__10_-removebg-preview\ \(1\).png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.section2 {
+  background-image: url("images__10_-removebg-preview\ \(1\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.scontainer{
-    width: 1170px;
-    /* border: 1px solid green; */
-    padding: 50px 10px;
-    overflow: hidden;
-}
-
-.sbox{
-    /* height: 400px; */
-    /* padding: 20px; */
-    width:30%;
-    background-color: #e2e0e0;
-    /* box-shadow: -2px -3px 1px 1px #8f8d8d; */
-    border-radius: 20px ;
-  transition: .5s all ;
-}
-
-.sbox:hover{
-    background-color: green;
-    opacity: 1;
-    transform: translateY(-30px);
-}
-
-
-
-
-
-.photo{
-    width: 100%;
-    height: 200px;
-    background-color: red;
-    border-radius: 20px ;
+.scontainer {
+  /* border: 1px solid rgb(8, 8, 8); */
+  padding: 50px 10px;
+  /* flex-direction: column; */
 
 }
 
-.text{
-    width: 100%;
-    height: 200px;
-        padding: 10px;
- 
+.sbox {
+  width: 30%;
+  background-color: #e2e0e0;
+  border-radius: 20px;
+  transition: 0.5s all;
 }
 
-.kras{
-    width: 100vw;
+.sbox:hover {
+  background-color: green;
+  opacity: 1;
+  transform: translateY(-30px);
 }
 
-.core{
- width: 1170px ;
-padding-bottom: 20px;
+.photo {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+  border-radius: 20px;
 }
-.circle{
-  padding: 10px 0px ;
-    height:70px ;
-    width: 70px;
-    background-color: cyan ;
-    border: 1px solid black;
-    border-radius: 50%;
+
+.text {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
 }
-    
 
+.kras {
+  width: 100vw;
+}
 
-
+.core {
+  width: 1170px;
+  padding-bottom: 20px;
+}
+.circle {
+  padding: 10px 0px;
+  height: 70px;
+  width: 70px;
+  background-color: rgb(243, 28, 12);
+  border-radius: 50%;
+}
 
 /* ............. footer................  */
 
-.footer{
-    width: 1170px;
-   
-  background-color:rgb(240, 240, 240);;
-    color: black;
-    display: flex;
-    align-items: center;
+.footer {
+  
+
+  background-color: rgb(240, 240, 240);
+  color: black;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-    padding: 1rem 0rem ;
-
+  padding: 1rem 0rem;
 }
-
-
-
 
 /* ..............This is contact page css ,,,,,,,,,,,....................  */
 
-.contact{
-    /* height: 100vh; */
-    width: 100vw;
-    background-color:rgb(240, 240, 240);
-
-
+.contact {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: rgb(240, 240, 240);
 }
 
-.subcontact{
-    width: 1170px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-  
-    background-image: url("images__10_-removebg-preview\ \(1\).png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-
+.subcontact {
+  /* width: 1170px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-image: url("images__10_-removebg-preview\ \(1\).png"); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.rightform{
-    flex-basis: 50%;
+.rightform {
+  flex-basis: 50%;
   padding: 50px 20px;
-    height: 100%;
-    /* background-color: rgb(58, 185, 58); */
-    gap: 5px;
-
+  height: 100%;
+  /* background-color: rgb(58, 185, 58); */
+  gap: 5px;
 }
 
-.rightform input{
-    padding: 10px;
-    border-radius: 10px;
-    outline: 1px solid  black;
-    border: none;
- 
-
+.rightform input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: 1px solid black;
+  border: none;
 }
 
-.names input , .Email input{
-    padding: 10px 70px 10px 10px ;
-
-  
+.names input,
+.Email input {
+  padding: 10px 70px 10px 10px;
 }
 
-.subject{
-    width: 100%;
-    
+.subject {
+  width: 100%;
 }
 
-span{
-    color: red;
+span {
+  color: red;
 }
 
-textarea{
-    border: none;
-     border-radius: 10px;
-    outline: 1px solid  black;
-   width: 100%;
-   
+textarea {
+  border: none;
+  border-radius: 10px;
+  outline: 1px solid black;
+  width: 100%;
 }
 
-
-.names,.mail ,.Message{
-    width:100%;
+.names,
+.mail,
+.Message {
+  width: 100%;
 }
 
-.submit{
-    width: 100%;
-    margin-top: 10px;
+.submit {
+  width: 100%;
+  margin-top: 10px;
 }
 
-.submit1{
-    width: 100%;
-    margin: 20px 0px;
+.submit1 {
+  width: 100%;
+  margin: 20px 0px;
 }
 
-.submit input{
-    padding: 10px 20px ;
-    background-color: red;
-    color: white;
-    cursor: pointer;
+.submit input {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
 }
 
-.leftform{
-    flex-basis: 50%;
-    height: 100%;
-    /* background-color: rgb(231, 133, 5); */
-    padding: 0px 20px ;
-    
-
+.leftform {
+  flex-basis: 50%;
+  height: 100%;
+  /* background-color: rgb(231, 133, 5); */
+  padding: 0px 20px;
 }
 
-.contactheader{
-   height: 5vh;
-    width: 100vw;
-    background-color:rgb(240, 240, 240);
-
+.contactheader {
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(240, 240, 240);
 }
 
-.heading{
-    height: 100%;
-    width: 1170px;
-    color: white;
-    background-color: salmon;
+.heading {
+  height: 100%;
+  width: 1170px;
+  color: white;
+  background-color: salmon;
 }
 
-
-
-.Location ,.lmail ,.pnumber {
-    width: 100%;
+.Location,
+.lmail,
+.pnumber {
+  width: 100%;
 }
-.bxs-edit-location, .bxs-phone-outgoing ,.bxl-gmail{
-    padding: 10px;
-    border: 1px solid rgb(0, 0, 0) ;
-    border-radius: 10px ;
-
+.bxs-edit-location,
+.bxs-phone-outgoing,
+.bxl-gmail {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
 }
 
-
-
-
-
+.bx-right-arrow-alt {
+  font-size: 40px;
+}
 
 /* ............................... This is about page css.............................  */
-.About{
-    height: 100vh;
-    width: 100vw;
-    background-color:rgb(240, 240, 240);
+.About {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(240, 240, 240);
 }
 
-.subabout{
-    width: 1170px;
-    height: 100%;
-
+.subabout {
+  width: 1170px;
+  height: 100%;
 }
-
-
