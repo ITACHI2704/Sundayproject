@@ -8,7 +8,7 @@ console.log(" menu was clickd")
 })
 
 cut.addEventListener("click", ()=>{
-    sliderbody.style.transform = "translateX(800px)";
+    sliderbody.style.transform = "translateX(1180px)";
     console.log("  cut was clickd")
     })
 

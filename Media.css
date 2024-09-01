@@ -19,6 +19,13 @@
     width: 1170px;
     
   }
+
+  .bx.bx-x-circle{
+display: none;
+  }
+
+
+
 }
 
 
@@ -26,17 +33,15 @@
 /* For tablets media quaries  */
 @media only screen and (min-width:700px) and (max-width:1170px) {
     body{
-        background-color: rgb(63, 43, 235);
+        background-color:black;
     }
     .header1,.section_one ,.scontainer ,.footer{
       width: 100vw;
-      background-color: skyblue;
+      /* background-color: skyblue; */
       }
 
       
-  nav {
-    display: none;
-  }
+  
 
 
   /* .................................   */
@@ -82,7 +87,7 @@
 }
 
 .rightform{
-  width: 100%;
+  width: 100vw;
 }
 
 .leftform{
@@ -95,7 +100,42 @@
   display: none;
 }
 
+nav {
+  height: 100vh;
+  width: 40vw;
+  backdrop-filter:blur(10px) ;
+  /* background-color: gold; */
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  z-index: 1111111111111111111;
+  transform: translateX(1180px);
+  transition: all 0.6s ease-in-out;
 }
+nav ul  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.bx-x-circle{
+  font-size: 40px;
+  color: rgb(1, 1, 14);
+position: absolute;
+top: 5%;
+right: 10%;
+}
+.bx.bx-x-circle{
+  display: block;
+}
+
+
+
+}
+
+
 
 /* ......................home....................   */
 
@@ -122,13 +162,14 @@
     height: 100vh;
     width: 90vw;
     backdrop-filter:blur(10px) ;
+    /* background-color: goldenrod; */
     position: fixed;
     top: 0%;
     right: 0%;
     z-index: 1111111111111111111;
     transform: translateX(800px);
     transition: all 0.6s ease-in-out;
-  }
+  } 
 
   nav ul  {
     display: flex;
@@ -221,6 +262,10 @@ right: 10%;
 .leftform{
   gap: 20px;
   padding: 30px 20px 20px 20px ;
+}
+
+.bx.bx-x-circle{
+  display: block;
 }
 
 
