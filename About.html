@@ -37,54 +37,52 @@
 
 <div class="hide"></div>
 
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="shinchan.jpg" alt="">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title"> About me </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nemo officia earum dignissimos culpa velit officiis odit eum maiores sed necessitatibus labore, ratione repudiandae assumenda id minima. Porro quisquam eos labore fugiat impedit dolorum quia dolore in saepe illo! Ab architecto rerum totam repellendus quibusdam explicabo, autem magnam quo laboriosam doloremque necessitatibus inventore voluptates tenetur at perferendis ipsa consectetur assumenda.</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-links">skills</p>
-                    <p class="tab-links">Experience</p>
-                    <p class="tab-links">Education</p>
-
-                </div>
-                <div class="tab-content active-tab">
-                    <ul>
-                        <li> <span> UI/UX </span> <br> Desing web / interfaces </li>
-                        <li> <span> Wev development </span> <br> Desing web / interfaces </li>
-                        <li> <span> App development</span> <br> Desing web / interfaces </li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <ul>
-                        <li> <span> UI/UX </span> <br> Desing web / interfaces </li>
-                        <li> <span> Wev development </span> <br> Web  development </li>
-                        <li> <span> App development</span> <br> Desing web / interfaces </li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <ul>
-                        <li> <span> UI/UX </span> <br> Desing web / interfaces </li>
-                        <li> <span> Wev development </span> <br> Desing web / interfaces </li>
-                        <li> <span> App development</span> <br> Desing web / interfaces </li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <ul>
-                        <li> <span> UI/UX </span> <br> Desing web / interfaces </li>
-                        <li> <span> Wev development </span> <br> Desing web / interfaces </li>
-                        <li> <span> App development</span> <br> Desing web / interfaces </li>
-                    </ul>
+<div class="About flex ">
+    <div class="subabout flex  ">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="shinchan.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About me </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nemo officia earum dignissimos culpa velit officiis odit eum maiores sed necessitatibus labore, ratione repudiandae assumenda id minima. Porro quisquam eos labore fugiat impedit dolorum quia dolore in saepe illo! Ab architecto rerum totam repellendus quibusdam explicabo, autem magnam quo laboriosam doloremque necessitatibus inventore voluptates tenetur at perferendis ipsa consectetur assumenda.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links"onclick ="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick ="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick ="opentab('Education')">Education</p>
+        
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li> <span> UI/UX </span> <br> Desining  Web/app interfaces </li>
+                                <li> <span> Wev development </span> <br>Web app development </li>
+                                <li> <span> App development</span> <br> Building android /IOS apps </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="Experience">
+                            <ul>
+                                <li> <span> 2021 -current </span> <br> UI /UX Desing Training at OWN Institute </li>
+                                <li> <span> 2019 - 2021 </span> <br> Team lead at Starapp LLC. </li>
+                                <li> <span> 2017 - 2019 </span> <br> UX / UI Desing Excutive at coin Digital Ltd. </li>
+                            </ul>
+                        </div>
+                    
+                        <div class="tab-content" id="Education">
+                            <ul>
+                                <li> <span> 2016</span> <br> UI /UX Desing Training at OWN Institute </li>
+                                <li> <span>2016</span> <br>MBA from MIT Banglore  </li>
+                                <li> <span> 2014</span> <br> BBA from ISM Banglore </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
         
     </div>
 
@@ -115,5 +113,6 @@
 
 
 <script src="script.js"></script>
+
 </body>
 </html>

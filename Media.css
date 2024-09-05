@@ -4,12 +4,17 @@
   .header1,.section_one ,.scontainer ,.footer,.subabout{
     width: 1170px;
   }
+  
   body {
     background-color: black;
   }
 
   .hicon{
     display: none;
+  }
+
+  .names{
+    gap: 10px ;
   }
 
 
@@ -266,6 +271,15 @@ right: 10%;
 
 .bx.bx-x-circle{
   display: block;
+}
+
+.subabout{
+  padding: 5px 20px ;
+}
+
+.about-col-1 {
+    flex-basis: 100%;
+  
 }
 
 

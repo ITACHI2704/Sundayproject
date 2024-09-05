@@ -23,6 +23,18 @@
   z-index: 10000;
 }
 
+.background{
+  background-color: #0d71ca;
+}
+
+.ht{
+  background-color: #f16529;
+}
+
+.js{
+  background-color: #f7df1e;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -161,6 +173,11 @@ display: none ;
   color: rgb(7, 6, 6);
 }
 
+
+.photo img{
+  width: 100%;
+  object-fit: contain;
+}
 /* ............... section2..........  */
 
 .shome {
@@ -203,7 +220,7 @@ display: none ;
 .photo {
   width: 100%;
   height: 200px;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 20px;
 }
 
@@ -363,8 +380,7 @@ textarea {
 
 /* ............................... This is about page css.............................  */
 .About {
-  /* height: 100vh; */
-  /* width: 100vw; */
+  width: 100vw; 
   background-color: rgb(240, 240, 240);
 }
 
@@ -417,7 +433,7 @@ textarea {
 .sub-title{
   font-size: 60px;
   font-weight: 600;
-  color: white;
+  /* color: white; */
 }
 
 .tab-titles{
@@ -467,6 +483,12 @@ width: 50%;
 }
 
 .tab-content.active-tab{
+  display: block;
+}
+
+#msg {
+  color: green;
+  font-family: cursive;
   display: block;
 }
 

@@ -43,7 +43,7 @@
 </div>
 <div class="contact flex">
 <div class="subcontact ">
-    <form  name= "submit-to-google-sheet">
+    <form  name="submit-to-google-sheet">
 <div class="rightform flex direction "> 
     <div class="submit1">
       <h3> Get in touch</h3>
@@ -52,29 +52,29 @@
 <div class="names flex  sbetween" >
 <div class="namei">
     <p>Name <span>*</span></p>
-    <input type="text" placeholder="Name" class="name">
+    <input type="text" placeholder="Name" name="Name"class="name">
 </div>
 <div class="emaili">
     <p> Your Email <span>*</span></p>
-    <input type="email" placeholder="Email" class="Email">
+    <input type="email" placeholder="Email" name = "Email" class="Email">
 </div>
 </div>
 <div class="mail ">
     <p>Subject <span>*</span></p>
-    <input type="text" placeholder="Subject" class="subject">
+    <input type="text" placeholder="Subject"   name="text" class="subject">
 
 </div>
 <div class="Message ">
     <p> Message <span>*</span></p>
-    <textarea name="Message" id="message" placeholder="Message" rows="10" >
+    <textarea name="Message" id="message"  name="comment"  placeholder="Message" rows="10" >
 
     </textarea>
 </div>
 <div class="submit">
-    <input type="button" value="Submit">
+    <input type="submit" value="Submit">
 </div>
 </form>
-
+<span id="msg">  </span>
 </div>
 <div class="leftform flex direction start gap"> 
    <div class="pnumber flex2  gap">
@@ -143,5 +143,6 @@
 
 
 <script src="script.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
