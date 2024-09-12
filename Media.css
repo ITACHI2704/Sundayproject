@@ -142,6 +142,11 @@ right: 10%;
   height: auto;
 }
 
+nav ul li a{
+  color: black;
+  font-weight: 400;
+}
+
 
 
 
@@ -187,8 +192,13 @@ right: 10%;
     margin-top: 100px;
   }
 
+  nav ul li a{
+    color: black;
+    font-weight: 400;
+  }
+
   .header1{
-    height: 75px;
+    height: 50px;
   }
 
   .bx-x-circle{
@@ -219,10 +229,7 @@ right: 10%;
  
 
   .header1 {
-    background-color: red;
-    width: 100vw;
-   
-   
+       width: 100vw;
    
   }
 
@@ -322,7 +329,13 @@ width: 100%;
 }
 
 .hide{
-  height: 75px;
+  height: 50px;
+}
+
+.sociallinks a{
+justify-content: flex-start;
+font-size: 15px;
+
 }
 
 }
