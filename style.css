@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  font-family: cursive;
+  
 }
 
 html ,body{
@@ -499,6 +499,8 @@ width: 50%;
   color: green;
   font-family: cursive;
   display: block;
+  margin: 10px;
+  transition: 04s ease-out;
 }
 
 .social{
@@ -510,7 +512,7 @@ width: 50%;
 }
 
 .socialtext h5{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   font-family:cursive;
 

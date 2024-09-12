@@ -50,10 +50,7 @@ display: none;
       /* background-color: skyblue; */
       }
 
-      
-  
-
-
+    
   /* .................................   */
   .subcontact{
   
@@ -141,17 +138,18 @@ right: 10%;
   display: block;
 }
 
+.text{
+  height: auto;
+}
+
+
 
 
 }
-
 
 
 /* ......................home....................   */
 
-.text{
-  height: auto;
-}
 
 
 
@@ -266,7 +264,7 @@ right: 10%;
 }
 
 .rightform{
-  padding: 5px 20px;
+  padding: 5px 10px;
 }
 .contactheader{
   display: none;
@@ -275,7 +273,7 @@ right: 10%;
 
 .leftform{
   gap: 20px;
-  padding: 30px 20px 20px 20px ;
+  padding: 5px 10px;
 }
 
 .bx.bx-x-circle{
@@ -307,7 +305,7 @@ width: 100%;
 }
 
 .socialtext h5{
-  font-size: 20px ;
+  font-size: 18px ;
   white-space: nowrap;
 }
 
@@ -321,6 +319,10 @@ width: 100%;
 .manucon{
   width: 100%;
 
+}
+
+.hide{
+  height: 75px;
 }
 
 }
