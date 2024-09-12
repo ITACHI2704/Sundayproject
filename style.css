@@ -5,7 +5,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-family: cursive;
 }
+
+html ,body{
+  width: 100vw;
+  min-height: 100vh;
+  /* scrollbar-width: none; */
+  }
+
+
+
 
 /* ......utility ................ */
 
@@ -80,7 +90,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* width: 1170px; */
   height: 90px;
   padding: 0px 10px;
 }
@@ -492,7 +501,87 @@ width: 50%;
   display: block;
 }
 
+.social{
+  width: 100vw;
+  background-color: rgb(240, 240, 240);
+}
+.socialmedia{
+  width: 1170px;
+}
+
+.socialtext h5{
+  font-size: 30px;
+  font-weight: 600;
+  font-family:cursive;
+
+}
+
+.sociallinks{
+  padding: 15px 0px ;
+}
+.sociallinks a{
+display: flex;
+align-items: center;
+justify-content: center;
+padding:5px ;
+text-decoration: none;
+gap: 10px;
+
+}
+
+.sociallinks a:hover{
+  border-radius: 10px ;
+background: #0d71ca;
+color: black;
+box-shadow: 0 0 5px #039ef4 ,0 0 25px #039ef4,0 0 5px #039ef4,0 0 50px #039ef4,0 0 200px #039ef4;
+}
+  /* ...................layer ...........  */
+
+  .layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  height: 0%;
+  width: 100%;
+  overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0% 10%;
+    background: linear-gradient(rgba(212, 145, 145, 0.6), #ff004f);
+    /* gap: 1.5rem; */
+    transition: height 0.5s ;
+   
+  }
+  
+   .bxl-github{
+    font-size: 150px;
+  }
 
 
+  .manu{
+    width: 100%;
+  }
+
+  .manumain{
+    width: 1170px;
+     padding: 0px 10px;
+  }
+
+  .manucon{
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(42, 67, 179);
+   width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    transition: background 0.5s, transform 0.6s;
+    display: block;
+  }
 
 
+  .manucon:hover .layer{
+    height: 100%;
+  }

@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- ................... header..................................  -->
-
+   
     <div class="sahi flex fixed">
         <div class="galat">
             <div class="header1">
@@ -31,7 +31,7 @@
             </div>
             </div>
         </div>
-    </div>
+
 
 <!-- ..............section1........................ -->
 <div class="hide">
@@ -41,6 +41,7 @@
 <div class="contactheader flex">
 
 </div>
+
 <div class="contact flex">
 <div class="subcontact ">
     <form  name="submit-to-google-sheet">
@@ -52,19 +53,19 @@
 <div class="names flex  sbetween" >
 <div class="namei">
     <p>Name <span>*</span></p>
-    <input type="text" placeholder="Name" name="Name"class="name">
+    <input type="text" placeholder="Name" name="Name"class="name" required>
 </div>
 <div class="emaili">
     <p> Your Email <span>*</span></p>
-    <input type="email" placeholder="Email" name = "Email" class="Email">
+    <input type="email" placeholder="Email" name = "Email" class="Email" required>
 </div>
 </div>
-<div class="mail ">
+<div class="mail " required>
     <p>Subject <span>*</span></p>
     <input type="text" placeholder="Subject"   name="text" class="subject">
 
 </div>
-<div class="Message ">
+<div class="Message " required>
     <p> Message <span>*</span></p>
     <textarea name="Message" id="message"  name="comment"  placeholder="Message" rows="10" >
 
@@ -111,13 +112,26 @@
 </div>
 </div>
 
-<div class="contactheader">
-
+<div class="contactheader ">
+ 
 </div>
 
 
-    
+<div class="social flex  ">
+   <div class="socialmedia">
+    <div class="socialtext">
+        <h5>
+            You can also follow me on social media 
+        </h5>
+    </div>
+<div class="sociallinks flex sbetween  ">
+    <a href=""><i class='bx bxl-twitter'></i>Twitter </a>
+    <a href=""><i class='bx bxl-facebook'></i>Facebook</a>
+    <a href=""><i class='bx bxl-instagram'></i>Instagram</a>
 
+</div>
+   </div> 
+</div>
 
 
 
@@ -130,9 +144,7 @@
 <div class="full_body">
     <div class="footer">
         <div class="fright">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+           
         </div>
         <div class="fleft">
           <p>All &copy; right are reserved by kkr</p>

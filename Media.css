@@ -1,5 +1,8 @@
 /* for latop media quaries  */
 @media only screen and (min-width: 1170px) {
+  body{
+    overflow-x: hidden;
+  }
   .galat,
   .header1,.section_one ,.scontainer ,.footer,.subabout{
     width: 1170px;
@@ -16,6 +19,8 @@
   .names{
     gap: 10px ;
   }
+
+  
 
 
   /* .................................................   */
@@ -184,6 +189,10 @@ right: 10%;
     margin-top: 100px;
   }
 
+  .header1{
+    height: 75px;
+  }
+
   .bx-x-circle{
     font-size: 40px;
     color: rgb(1, 1, 14);
@@ -282,6 +291,37 @@ right: 10%;
   
 }
 
+.social{
+  padding: 30px 20px 20px 20px;
+}
+.sociallinks{
+  display: flex;
+   flex-direction: column;
+  gap:10px;
+
+}
+.sociallinks a{
+/* margin:10px 0px; */
+width: 100%;
+
+}
+
+.socialtext h5{
+  font-size: 20px ;
+  white-space: nowrap;
+}
+
+
+.manumain{
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.manucon{
+  width: 100%;
+
+}
 
 }
 
