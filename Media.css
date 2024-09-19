@@ -33,6 +33,19 @@
   .bx.bx-x-circle {
     display: none;
   }
+
+  .sbox:hover {
+    background-color: #FFF;
+    border: 1px solid black;
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  .scontainer {
+ 
+    padding: 50px 10px;
+  
+  
+  }
 }
 
 /* For tablets media quaries  */
@@ -140,6 +153,20 @@
     color: black;
     font-weight: 400;
   }
+
+
+  .sbox:hover {
+    background-color: #FFF;
+    border: 1px solid black;
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  .scontainer {
+ 
+    padding: 50px 10px;
+  
+  
+  }
 }
 
 /* ......................home....................   */
@@ -204,9 +231,15 @@
     flex-direction: column;
   }
 
+  .scontainer::-webkit-scrollbar {
+    width: 0px;
+  }
+
   .scontainer {
-    flex-direction: column;
-    gap: 50px;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-left: 10px;
   }
 
   .circle {
@@ -219,7 +252,11 @@
   }
 
   .sbox {
-    width: 100%;
+    height: 450px;
+    min-width: 282px;
+    border: 1px solid black;
+    background-color: rgb(131, 121, 120);
+    border-radius: 5px;
   }
 
   .sahi {
@@ -288,7 +325,7 @@
     gap: 10px;
   }
   .sociallinks a {
-   padding: 0px;
+    padding: 0px;
     width: 100%;
   }
 
@@ -297,13 +334,23 @@
     white-space: nowrap;
   }
 
+  .manumain::-webkit-scrollbar {
+    width: 0px;
+  }
+
   .manumain {
-    flex-direction: column;
+    display: flex;
+    overflow-x: auto;
     gap: 20px;
+  
   }
 
   .manucon {
-    width: 100%;
+    height: 450px;
+    min-width: 282px;
+    border: 1px solid black;
+
+    border-radius: 5px;
   }
 
   .hide {
@@ -314,4 +361,16 @@
     justify-content: flex-start;
     font-size: 15px;
   }
-}
+
+  .shome h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+
+  .scontainer {
+     padding:  10px;
+      }
+    
+    }

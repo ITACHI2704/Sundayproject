@@ -194,11 +194,15 @@ display: none ;
   color: rgba(250, 250, 252, .8);
 
 }
+.photo{
+  border-radius: 20px;
+}
 
 
 .photo img{
   width: 100%;
   object-fit: contain;
+ 
 }
 /* ............... section2..........  */
 
@@ -285,18 +289,11 @@ background-color: #0000;
   transition: 0.5s all;
 }
 
-.sbox:hover {
-  background-color: #FFF;
-  border: 1px solid black;
-  opacity: 1;
-  transform: translateY(-30px);
-}
+
 
 .photo {
   width: 100%;
   height: 200px;
-  /* background-color: red; */
-  border-radius: 20px;
 }
 
 .text {
