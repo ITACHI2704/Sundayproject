@@ -239,7 +239,7 @@
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    margin-left: 10px;
+   
   }
 
   .circle {
@@ -254,9 +254,10 @@
   .sbox {
     height: 450px;
     min-width: 282px;
-    border: 1px solid black;
-    background-color: rgb(131, 121, 120);
-    border-radius: 5px;
+    /* border: 1px solid black; */
+    background-color: rgb(250, 247, 247);
+    box-shadow: 2px 2px 4px rgb(226, 214, 214);
+  
   }
 
   .sahi {
@@ -349,8 +350,10 @@
     height: 450px;
     min-width: 282px;
     border: 1px solid black;
-
-    border-radius: 5px;
+    border-radius: 15px;
+    background-color: rgb(250, 247, 247);
+    box-shadow: 2px 2px 4px rgb(226, 214, 214);
+  
   }
 
   .hide {
@@ -371,6 +374,10 @@
 
   .scontainer {
      padding:  10px;
+      }
+
+      body{
+overflow-x: hidden;
       }
     
     }

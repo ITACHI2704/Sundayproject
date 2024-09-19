@@ -1,23 +1,15 @@
 
 
 gsap.from(".secone_right",{
-  x:500,
-  duration:1.5,
-  scalle:1,
-  delay:1,
-  yoyo:true, 
-  scrub:true  
-})
-
-
-
-gsap.from(".secone_left h1 ",{
   x:-5000,
-  duration:1.5,
+  duration:1.9,
   delay:1,
-  scrub:true  
-
+ scrub:true  
 })
+
+
+
+
 
 
 var project = gsap.timeline()
@@ -25,7 +17,20 @@ project.from(".secone_left h3",{
   x:-5000,
   duration:1.9,
   delay:1,
+  opacity:0,
  scrub:true  
+})
+
+
+
+
+
+project.from(".secone_left h1",{
+  x:-5000,
+  opacity:0,
+  duration:1.5,
+  scrub:true  
+
 })
 
 
