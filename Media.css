@@ -1,190 +1,119 @@
 /* for latop media quaries  */
 @media only screen and (min-width: 1170px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   .galat,
-  .header1,.section_one ,.scontainer ,.footer,.subabout{
+  .header1,
+  .section_one,
+  .scontainer,
+  .footer,
+  .subabout {
     width: 1170px;
   }
-  
+
   body {
     background-color: black;
   }
 
-  .hicon{
+  .hicon {
     display: none;
   }
 
-  .names{
-    gap: 10px ;
+  .names {
+    gap: 10px;
   }
-
-  
-
 
   /* .................................................   */
 
-  .subcontact{
+  .subcontact {
     width: 1170px;
-    
   }
 
-  .bx.bx-x-circle{
-display: none;
+  .bx.bx-x-circle {
+    display: none;
   }
-
-
-
 }
 
-
-
 /* For tablets media quaries  */
-@media only screen and (min-width:700px) and (max-width:1170px) {
-    body{
-        background-color:black;
-    }
-    .header1,.section_one ,.scontainer ,.footer{
-      width: 100vw;
-      /* background-color: skyblue; */
-      }
+@media only screen and (min-width: 700px) and (max-width: 1170px) {
+  body {
+    background-color: black;
+  }
+  .header1,
+  .section_one,
+  .scontainer,
+  .footer {
+    width: 100vw;
+    /* background-color: skyblue; */
+  }
 
-    
   /* .................................   */
-  .subcontact{
-  
+  .subcontact {
     flex-direction: column;
     overflow-x: hidden;
   }
 
- 
-.names{
-  flex-direction: column;
-  
-}
-.namei{
-  width: 100%;
-}
-.emaili{
-  width: 100%;
-}
+  .names {
+    flex-direction: column;
+  }
+  .namei {
+    width: 100%;
+  }
+  .emaili {
+    width: 100%;
+  }
 
-.names input, .Email input {
-  padding: 10px 70px 10px 10px;
-  width: 100%;
-}
+  .names input,
+  .Email input {
+    padding: 10px 70px 10px 10px;
+    width: 100%;
+  }
 
-.pnumber ,.lmail ,.Location{
-  gap: 10px;
-}
+  .pnumber,
+  .lmail,
+  .Location {
+    gap: 10px;
+  }
 
+  .leftform {
+    gap: 10px;
+  }
 
-.leftform{
-  gap: 20px;
-}
+  .subcontact {
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: radial-gradient(black, transparent);
+  }
 
+  .rightform {
+    width: 100vw;
+  }
 
-.subcontact {
-  width: 100%;
-  overflow-x: hidden;
-  flex-direction: column;
-  background: radial-gradient(black, transparent);
+  .leftform {
+    padding-bottom: 30px;
+    width: 100%;
+  }
 
-}
-
-.rightform{
-  width: 100vw;
-}
-
-.leftform{
- padding-bottom: 30px;
- width: 100%;
-}
-
-.contactheader{
-  background: radial-gradient(black, transparent);
-  display: none;
-}
-
-nav {
-  height: 100vh;
-  width: 40vw;
-  backdrop-filter:blur(10px) ;
-  /* background-color: gold; */
-  position: fixed;
-  top: 0%;
-  right: 0%;
-  z-index: 1111111111111111111;
-  transform: translateX(1180px);
-  transition: all 0.6s ease-in-out;
-}
-nav ul  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 100px;
-}
-
-.bx-x-circle{
-  font-size: 40px;
-  color: rgb(1, 1, 14);
-position: absolute;
-top: 5%;
-right: 10%;
-}
-.bx.bx-x-circle{
-  display: block;
-}
-
-.text{
-  height: auto;
-}
-
-nav ul li a{
-  color: black;
-  font-weight: 400;
-}
-
-
-
-
-}
-
-
-/* ......................home....................   */
-
-
-
-
-
-
-/* For Phone media quaries  */
-@media only screen and (max-width: 700px) {
-
-    .header1,.section_one ,.scontainer ,.footer{
-        width: 100%;
-      }
-
-      body{
-        overflow-x: hidden;
-      }
+  .contactheader {
+    background: radial-gradient(black, transparent);
+    display: none;
+  }
 
   nav {
     height: 100vh;
-    width: 90vw;
-    backdrop-filter:blur(10px) ;
-    /* background-color: goldenrod; */
+    width: 40vw;
+    backdrop-filter: blur(10px);
+    /* background-color: gold; */
     position: fixed;
     top: 0%;
     right: 0%;
     z-index: 1111111111111111111;
-    transform: translateX(800px);
+    transform: translateX(1180px);
     transition: all 0.6s ease-in-out;
-  } 
-
-  nav ul  {
+  }
+  nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,24 +121,82 @@ nav ul li a{
     margin-top: 100px;
   }
 
-  nav ul li a{
+  .bx-x-circle {
+    font-size: 40px;
+    color: rgb(1, 1, 14);
+    position: absolute;
+    top: 5%;
+    right: 10%;
+  }
+  .bx.bx-x-circle {
+    display: block;
+  }
+
+  .text {
+    height: auto;
+  }
+
+  nav ul li a {
+    color: black;
+    font-weight: 400;
+  }
+}
+
+/* ......................home....................   */
+
+/* For Phone media quaries  */
+@media only screen and (max-width: 700px) {
+  .header1,
+  .section_one,
+  .scontainer,
+  .footer {
+    width: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    height: 100vh;
+    width: 90vw;
+    backdrop-filter: blur(10px);
+    /* background-color: goldenrod; */
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 1111111111111111111;
+    transform: translateX(800px);
+    transition: all 0.6s ease-in-out;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  nav ul li a {
     color: black;
     font-weight: 400;
   }
 
-  .header1{
+  .header1 {
     height: 50px;
   }
 
-  .bx-x-circle{
+  .bx-x-circle {
     font-size: 40px;
     color: rgb(1, 1, 14);
-position: absolute;
-top: 5%;
-right: 10%;
+    position: absolute;
+    top: 1%;
+    right: 3.5%;
   }
 
-  .secone_left, .section_one{
+  .secone_left,
+  .section_one {
     width: 100%;
   }
 
@@ -226,121 +213,105 @@ right: 10%;
     display: none;
   }
 
- 
-
   .header1 {
-       width: 100vw;
-   
+    width: 100vw;
+    padding: 0;
   }
 
-  .sbox{
+  .sbox {
     width: 100%;
   }
 
-  .sahi{
-    border: 1px solid white ;
+  .sahi {
+    border: 1px solid white;
   }
 
-
   /* ....................................   */
-  .subcontact{
+  .subcontact {
     /* width: 1170px; */
     flex-direction: column;
     overflow-x: hidden;
   }
 
- 
-.names{
-  flex-direction: column;
-  
-}
-.namei{
-  width: 100%;
-}
-.emaili{
-  width: 100%;
-}
+  .names {
+    flex-direction: column;
+  }
+  .namei {
+    width: 100%;
+  }
+  .emaili {
+    width: 100%;
+  }
 
-.names input, .Email input {
-  padding: 10px 70px 10px 10px;
-  width: 100%;
-}
+  .names input,
+  .Email input {
+    padding: 10px 70px 10px 10px;
+    width: 100%;
+  }
 
-.pnumber ,.lmail ,.Location{
-  gap: 10px;
-}
+  .pnumber,
+  .lmail,
+  .Location {
+    gap: 10px;
+  }
 
-.rightform{
-  padding: 5px 10px;
-}
-.contactheader{
-  display: none;
-}
+  .rightform {
+    padding: 5px 10px;
+  }
+  .contactheader {
+    display: none;
+  }
 
+  .leftform {
+    gap: 20px;
+    padding: 5px 10px;
+  }
 
-.leftform{
-  gap: 20px;
-  padding: 5px 10px;
-}
+  .bx.bx-x-circle {
+    display: block;
+  }
 
-.bx.bx-x-circle{
-  display: block;
-}
+  .subabout {
+    padding: 5px 20px;
+  }
 
-.subabout{
-  padding: 5px 20px ;
-}
-
-.about-col-1 {
+  .about-col-1 {
     flex-basis: 100%;
-  
+  }
+
+  .social {
+    padding: 20px 20px 0px 20px;
+  }
+  .sociallinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sociallinks a {
+   padding: 0px;
+    width: 100%;
+  }
+
+  .socialtext h5 {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .manumain {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .manucon {
+    width: 100%;
+  }
+
+  .hide {
+    height: 50px;
+  }
+
+  .sociallinks a {
+    justify-content: flex-start;
+    font-size: 15px;
+  }
 }
-
-.social{
-  padding: 30px 20px 20px 20px;
-}
-.sociallinks{
-  display: flex;
-   flex-direction: column;
-  gap:10px;
-
-}
-.sociallinks a{
-/* margin:10px 0px; */
-width: 100%;
-
-}
-
-.socialtext h5{
-  font-size: 18px ;
-  white-space: nowrap;
-}
-
-
-.manumain{
-  flex-direction: column;
-  gap: 20px;
-
-}
-
-.manucon{
-  width: 100%;
-
-}
-
-.hide{
-  height: 50px;
-}
-
-.sociallinks a{
-justify-content: flex-start;
-font-size: 15px;
-
-}
-
-}
-
-
-
-
-  

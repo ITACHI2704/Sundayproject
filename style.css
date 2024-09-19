@@ -135,8 +135,8 @@ nav ul li a:hover {
 
 i.bx-menu-alt-right {
   font-size: 30px;
-  font-weight: 400;
-  color: white;
+  font-weight: 300;
+  color: rgb(241, 15, 15);
 }
 
 .bx-x-circle{
@@ -372,7 +372,7 @@ font-weight: 1200;
 
 .rightform input {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 9px;
  border: 1px solid black;
  
 }
@@ -451,11 +451,18 @@ textarea {
 .bxs-edit-location,
 .bxs-phone-outgoing,
 .bxl-gmail {
-  padding: 10px;
+  padding: 6px;
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 10px;
+  border-radius: 6px;
+  color: green;
+font-size: 20px;
+}
+.bxs-edit-location{
+  color: red;
 }
 
+.bxs-phone-outgoing{
+  color: rgb(14, 106, 245);}
 .bx-right-arrow-alt {
   font-size: 40px;
 }
@@ -590,6 +597,7 @@ width: 50%;
 .socialtext h5{
   font-size: 25px;
   font-weight: 400;
+  color: #0d71ca;
  
 
 }
@@ -600,7 +608,7 @@ width: 50%;
 
 .sociallinks i{
     font-size: 30px;
-  color: rgb(11, 75, 250);
+  color: #0d71ca;
 }
 .sociallinks a{
 display: flex;
@@ -617,8 +625,8 @@ font-size: 20px;
 
 .sociallinks a:hover{
   border-radius: 10px ;
-background: black;
-color: #fff;
-box-shadow: 0 0 5px rgb(14, 13, 13) ,0 0 25px rgb(8, 8, 8),0 0 5px rgb(17, 17, 17),0 0 50px black,0 0 200px rgb(19, 18, 18);
+background: rgb(141, 176, 218);
+color: #fafafa;
+box-shadow: 0 0 5px rgb(77, 106, 199) ,0 0 25px rgb(126, 167, 206),0 0 5px rgb(170, 192, 224),0 0 50px rgb(86, 128, 192),0 0 100px rgb(120, 143, 247);
 }
 
