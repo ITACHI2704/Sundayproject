@@ -109,7 +109,7 @@ nav ul li {
 
 nav ul li a {
 color: rgba(250, 250, 252, .8);
-font-weight: 200;
+font-weight: 400;
   text-decoration: none;
   cursor: pointer;
   transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -155,11 +155,11 @@ display: none ;
 }
 
 .secone_left {
-   height: 400px;
+   height: 300px;
   width: 90%;
   display: flex;
   align-items: flex-start;
-  line-height: 55px;
+  /* line-height:50px; */
   flex-direction: column;
   justify-content: center;
   padding-left: 10px;
@@ -168,8 +168,15 @@ display: none ;
   color: red;
 }
 
+.secone_left p{
+  margin-top: 20px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+}
+
 .secone_left h1,h3{
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .secone_right {
@@ -187,6 +194,7 @@ display: none ;
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.5s ease-in;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -213,20 +221,16 @@ background-color: #0000;
 }
 
 .shome h1{
-  font-weight: 200;
-  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  color: #050505;
+  
 }
 
 .section2 {
   background-color: #0000;
 }
 
-.scontainer {
- 
-  padding: 50px 10px;
-
-
-}
 
   /* ...................layer ...........  */
 
@@ -265,13 +269,13 @@ background-color: #0000;
 
   .manucon{
     border: 1px solid rgb(2, 2, 2);
-    background-color: rgb(42, 67, 179);
-   width: 30%;
-    height: 400px;
+    background-color: rgba(250, 250, 252, .8);
+   width: 32%;
+   height: 500px;
     border-radius: 10px;
     position: relative;
     transition: background 0.5s, transform 0.6s;
-    display: block;
+    /* display: block; */
   }
 
 
@@ -283,7 +287,8 @@ background-color: #0000;
   /* ......................   */
 
 .sbox {
-  width: 30%;
+  height: 450px;
+  width: 32%;
   background-color: #e2e0e0;
   border-radius: 20px;
   transition: 0.5s all;
@@ -521,7 +526,12 @@ font-size: 20px;
 .sub-title{
   font-size: 60px;
   font-weight: 600;
-  /* color: white; */
+
+}
+
+.subh2{
+  font-size: 19px;
+
 }
 
 .tab-titles{
@@ -622,8 +632,76 @@ font-size: 20px;
 
 .sociallinks a:hover{
   border-radius: 10px ;
-background: rgb(141, 176, 218);
+background: rgb(77, 85, 94);
 color: #fafafa;
-box-shadow: 0 0 5px rgb(77, 106, 199) ,0 0 25px rgb(126, 167, 206),0 0 5px rgb(170, 192, 224),0 0 50px rgb(86, 128, 192),0 0 100px rgb(120, 143, 247);
+box-shadow: 0 0 25px rgb(113, 122, 129),0 0 50px rgb(91, 98, 109),0 0 100px;
 }
+
+
+.manucon1 {
+  height:  282px;
+  min-width:573px;
+   border: 1px solid black;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  /* box-shadow: 2px 2px 4px rgb(226, 214, 214); */
+  overflow-x:hidden;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+
+}
+
+.manu1{
+ background-image: url("joanna-kosinska-r7U3EnWbqPE-unsplash.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover ; 
+margin-top: 20px;
+}
+
+.manumain1{
+overflow-x: auto;
+margin: 20px 0px;
+gap: 20px;
+color: white;
+
+
+}
+
+
+
+.manumain1::-webkit-scrollbar {
+  width: 0px;
+}
+
+.manuphoto{
+  height: 70px ;
+  width: 70px ;
+  border-radius: 30% ;
+  background-color: green;
+}
+
+.purecolor{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  /* background-image: url("samsung-memory-aEXbfkTGoqM-unsplash.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover ; */
+
+}
+
+.manubtn{
+  padding: 10px 15px ;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: none;
+  font-size: 16px;
+
+
+}
+
 

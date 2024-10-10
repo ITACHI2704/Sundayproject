@@ -1,5 +1,13 @@
 
 
+
+
+
+
+
+
+
+
 gsap.from(".secone_right",{
   x:-5000,
   duration:1.9,
@@ -71,11 +79,7 @@ stagger:0.3
 
 
 
-
-
-
-
-
+  
 
 
 
@@ -131,8 +135,6 @@ cut.addEventListener("click", ()=>{
     // ...........................  
 
     
-
-
 
 
 

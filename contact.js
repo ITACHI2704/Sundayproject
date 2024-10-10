@@ -18,3 +18,14 @@ form.addEventListener('submit', e => {
 
 
 
+let two = document.querySelector("#two")
+let ctwo = document.querySelector(".cdot1")
+
+ctwo.addEventListener( 'click',()=>{
+  two.style.transform = "translateX(1178px)"
+  console.log("cdot was clicked ")
+})
+
+
+
+
